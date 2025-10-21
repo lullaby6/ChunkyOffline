@@ -16,6 +16,8 @@ Disable/enable global messages:
 /function chunky_offline:config/global_messages/<enable | disable>
 ```
 
+## Commands
+
 Cancel:
 
 ```mcfunction
