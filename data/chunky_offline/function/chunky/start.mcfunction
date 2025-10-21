@@ -4,9 +4,11 @@ function chunky_offline:message {"text":"Started."}
 
 chunky pause
 chunky cancel
+chunky confirm
 
 $chunky center $(x) $(z)
 
 $chunky radius $(radius)
 
 chunky start
+chunky confirm
