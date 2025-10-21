@@ -1,4 +1,4 @@
-$tellraw @a {"color":"gray","text":"[Chunky Offline] Config: - Radius: $(radius) - Center: $(x) $(z)."}
+$tellraw $(selector) {"color":"gray","text":"[Chunky Offline] Config: - Radius: $(radius) - Center: $(x) $(z)."}
 
 $data modify storage chunky_offline:config radius set value $(radius)
 $data modify storage chunky_offline:config x set value $(x)

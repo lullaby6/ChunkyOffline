@@ -1,6 +1,9 @@
-scoreboard players set status chunky_offline 1
+scoreboard players set status chunky_offline.config 1
 
-tellraw @a {"color":"gray","text":"[Chunky Offline] Started."}
+function chunky_offline:message {"text":"Started."}
+
+chunky pause
+chunky cancel
 
 $chunky center $(x) $(z)
 
