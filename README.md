@@ -4,6 +4,38 @@ Chunky Offline is an extension of [Chunky](https://github.com/pop4959/Chunky) to
 
 ## Config
 
+Change the config:
+
 ```mcfunction
 /function chunky_offline:config/set {"radius":10000,"x":0,"z":0}
+```
+
+Disable/enable global messages:
+
+```mcfunction
+/function chunky_offline:config/global_messages/<enable | disable>
+```
+
+Cancel:
+
+```mcfunction
+/function chunky_offline:chunky/cancel
+```
+
+Pause:
+
+```mcfunction
+/function chunky_offline:chunky/pause
+```
+
+Resume:
+
+```mcfunction
+/function chunky_offline:chunky/resume
+```
+
+Manually start:
+
+```mcfunction
+/function chunky_offline:chunky/start
 ```
