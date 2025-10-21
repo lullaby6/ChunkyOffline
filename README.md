@@ -36,7 +36,7 @@ Resume:
 /function chunky_offline:chunky/resume
 ```
 
-Manually start:
+Manually start (this command runs automatically when Chunky Oflline loads):
 
 ```mcfunction
 /function chunky_offline:chunky/start
