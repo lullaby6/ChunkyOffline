@@ -1,6 +1,6 @@
 # Chunky Offline
 
-Chunky Offline is an extension of Chunky to generate chunks when no players are online.
+Chunky Offline is an extension of Chunky to generate chunks when no players are online and it runs automatically, the default values are radius `10000` and center `0 0`.
 
 ## Config
 
