@@ -2,13 +2,13 @@ scoreboard players set status chunky_offline.config 1
 
 function chunky_offline:message {"text":"Started."}
 
-chunky pause
-chunky cancel
-chunky confirm
+function chunky_offline:utils/macro/command {"command":"chunky pause"}
+function chunky_offline:utils/macro/command {"command":"chunky cancel"}
+function chunky_offline:utils/macro/command {"command":"chunky confirm"}
 
-$chunky center $(x) $(z)
+$function chunky_offline:utils/macro/command {"command":"chunky center $(x) $(z)"}
 
-$chunky radius $(radius)
+$function chunky_offline:utils/macro/command {"command":"chunky radius $(radius)"}
 
-chunky start
-chunky confirm
+function chunky_offline:utils/macro/command {"command":"chunky start"}
+function chunky_offline:utils/macro/command {"command":"chunky confirm"}
