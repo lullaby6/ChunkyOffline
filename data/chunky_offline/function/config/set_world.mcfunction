@@ -15,9 +15,4 @@ data remove storage chunky_offline:temp entry
 data remove storage chunky_offline:temp target_world
 data remove storage chunky_offline:temp target_radius
 
-execute if score status chunky_offline.config matches 1 run function chunky_offline:utils/macro/command {"command":"chunky pause"}
-execute if score status chunky_offline.config matches 1 run function chunky_offline:utils/macro/command {"command":"chunky cancel"}
-execute if score status chunky_offline.config matches 1 run function chunky_offline:utils/macro/command {"command":"chunky confirm"}
-
-execute if score status chunky_offline.config matches 1 run function chunky_offline:chunky/start_worlds
-execute if score status chunky_offline.config matches 1 run function chunky_offline:utils/macro/command {"command":"chunky confirm"}
+execute if score status chunky_offline.config matches 1 run function chunky_offline:chunky/restart_worlds
